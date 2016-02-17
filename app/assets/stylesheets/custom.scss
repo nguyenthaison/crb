@@ -16,7 +16,7 @@ header {
     letter-spacing: -1px;
     font-weight: bold;
     margin-left: 35px;
-    margin-top: 16px;
+    margin-top: 9px;
     &:hover {
       color: $light-blue;
       text-decoration: none;
@@ -557,6 +557,7 @@ footer {
 
 .profile-image{
   height: 30px;
+  margin-top: -4px;
 }
 
 .btn-form{
@@ -604,3 +605,14 @@ a.fc-more{
   from { transform: scale(1) rotate(0deg);}
   to { transform: scale(1) rotate(360deg);}
 }
+
+.navbar {
+  min-height: 46px;
+  margin-bottom: 12px;
+  border: 1px solid transparent;
+}
+
+.navbar-nav > li > a {
+    padding-top: 12px;
+    padding-bottom: 15px;
+  }
